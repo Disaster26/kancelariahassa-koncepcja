@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Kancelaria Adwokacka Hassa - adwokat Opole i Głogówek</title>
+<meta name="description" content="Kancelaria Adwokacka Hassa w Opolu i Głogówku. Adwokat Aneta Hassa i adwokat dr Mariusz Hassa: sprawy cywilne, spadkowe, rodzinne, karne, pracownicze, spółek i administracyjne. Obsługa po polsku i po niemiecku.">
+<meta name="theme-color" content="#184838">
+<link rel="preload" href="fonts/lora-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/ss3-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" href="img/mlotek-1024.webp" imagesrcset="img/mlotek-640.webp 640w, img/mlotek-1024.webp 1024w, img/mlotek-1600.webp 1600w" imagesizes="100vw" fetchpriority="high">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M4 5c6-3 13-3 20 0l1 23c-7-3-14-3-21 0z' fill='%23184838'/%3E%3Ctext x='14' y='23' font-size='18' font-family='Georgia' fill='%23fff' text-anchor='middle'%3E%C2%A7%3C/text%3E%3C/svg%3E">
+<style>
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:"Lora";font-style:normal;font-weight:400 700;font-display:swap;src:url(fonts/lora-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:SS3;src:url(fonts/ss3-rdzen.woff2) format("woff2");font-weight:200 900;font-display:swap;unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2014,U+2018-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:SS3;src:url(fonts/ss3-pl.woff2) format("woff2");font-weight:200 900;font-display:swap;unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Lora-fb";src:local("Georgia");size-adjust:104%;ascent-override:88%;descent-override:24%;line-gap-override:0%}
+@font-face{font-family:"SS3-fb";src:local("Arial");size-adjust:94%}
+:root{
+  --g:#184838;--g-ciemna:#123A2F;--g-jasna:#1F5E49;--brz:#504840;
+  --t:#1A2220;--s:#4E5855;--szary:#EEF0F2;--linia:#D9DEE1;--bialy:#FFFFFF;
+  --kont:min(92vw,1640px);--h:64px;
+  --serif:"Lora","Lora-fb",Georgia,serif;--sans:SS3,"SS3-fb",Arial,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--h)}
+body{margin:0;background:#fff;color:var(--t);font:400 17px/1.6 var(--sans);-webkit-text-size-adjust:100%}
+img{display:block;max-width:100%;height:auto}
+a{color:var(--g)}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.2;margin:0;color:var(--t)}
+p{margin:0}
+.kont{width:var(--kont);margin:0 auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:50px;padding:0 26px;background:var(--g);color:#fff;font:600 17px/1 var(--sans);text-decoration:none;border:0;border-radius:2px;cursor:pointer;transition:background .2s}
+.btn:hover{background:var(--g-jasna)}
+.btn-jasny{background:#fff;color:var(--g)}
+.btn-jasny:hover{background:#E8EFEC}
+.kreska{display:block;width:150px;height:22px;color:var(--g);margin:18px 0 0}
+
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;background:#fff;border-bottom:1px solid var(--linia)}
+.top .kont{height:var(--h);display:flex;align-items:center;gap:24px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--brz);flex:none}
+.logo svg{width:78px;height:46px;flex:none}
+.logo span{font:500 13px/1.25 var(--serif);letter-spacing:.06em;color:var(--brz)}
+.menu{display:flex;gap:clamp(14px,1.6vw,30px);margin-left:auto}
+.menu a{color:var(--t);text-decoration:none;font-size:16px;padding:6px 0;border-bottom:2px solid transparent}
+.menu a:hover{border-color:var(--g)}
+.menu a[lang=de]{color:var(--g);font-weight:600}
+.tel{display:flex;align-items:center;gap:8px;color:var(--g);font-weight:700;text-decoration:none;white-space:nowrap;font-size:17px}
+.tel svg{width:18px;height:18px}
+.burger{display:none;margin-left:auto;width:46px;height:46px;border:0;background:none;padding:11px;cursor:pointer}
+.burger i{display:block;height:2px;background:var(--t);margin:5px 0;transition:transform .2s,opacity .2s}
+.burger[aria-expanded=true] i:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger[aria-expanded=true] i:nth-child(2){opacity:0}
+.burger[aria-expanded=true] i:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* hero */
+.hero{position:relative;min-height:calc(100svh - var(--h) - 1px);display:flex;align-items:center;overflow:hidden;background:#3a312b}
+.hero-foto{position:absolute;inset:0;margin:0}
+.hero-foto img{width:100%;height:100%;object-fit:cover;object-position:68% 50%}
+.hero-foto::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(20,24,22,.35),rgba(20,24,22,0) 60%)}
+.hero .kont{position:relative;z-index:1;padding:48px 0}
+.karta{position:relative;background:var(--g);color:#fff;width:min(800px,44vw);padding:clamp(40px,5vh,72px) clamp(32px,3vw,56px)}
+.karta::before,.karta::after{content:"";position:absolute;left:0;right:0;height:34px;background-repeat:no-repeat;background-size:100% 100%}
+.karta::before{bottom:100%;margin-bottom:-1px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 26' preserveAspectRatio='none'%3E%3Cpath d='M0 26V10C70 0 150 0 230 9S350 20 400 6V26Z' fill='%23184838'/%3E%3C/svg%3E")}
+.karta::after{top:100%;margin-top:-1px;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 26' preserveAspectRatio='none'%3E%3Cpath d='M0 0H400V14C330 26 250 25 170 16S50 6 0 20Z' fill='%23184838'/%3E%3C/svg%3E")}
+.karta h1{color:#fff;font-size:clamp(30px,2.5vw,60px);line-height:1.15}
+.karta p.lead{margin-top:18px;font-size:clamp(17px,calc(.55vw + 8px),21px);line-height:1.55;color:#E3ECE8;max-width:54ch}
+.karta .akcje{margin-top:30px;display:flex;flex-wrap:wrap;align-items:center;gap:14px 24px}
+.karta .adres{font-size:15px;color:#C9D9D2;line-height:1.45}
+.karta .kreska{color:#8FB5A6;margin-top:16px}
+
+/* sekcje */
+section{padding:clamp(64px,8vw,120px) 0}
+.szara{background:var(--szary)}
+h2{font-size:clamp(30px,2.6vw,44px)}
+.wstep{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:clamp(32px,6vw,120px);align-items:start}
+.wstep .tekst p{font-size:18px;color:var(--s);margin-top:20px;max-width:68ch}
+.motto{margin:0;border-left:3px solid var(--g);padding:6px 0 6px clamp(22px,2.5vw,40px)}
+.motto p{font:500 clamp(24px,2vw,34px)/1.35 var(--serif);color:var(--g)}
+.motto cite{display:block;margin-top:16px;font-style:normal;color:var(--s);font-size:16px}
+
+/* prawnicy */
+.zespol{margin-top:44px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(20px,2.5vw,40px)}
+.osoba{display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(20px,2vw,36px);background:#fff;padding:clamp(20px,2vw,32px);border-top:3px solid var(--g)}
+.osoba button{padding:0;border:0;background:none;cursor:zoom-in;align-self:start}
+.osoba img{width:clamp(130px,11vw,190px);aspect-ratio:210/316;object-fit:cover}
+.osoba h3{font-size:clamp(22px,1.6vw,28px)}
+.osoba .rola{color:var(--g);font-weight:600;margin-top:4px}
+.osoba p.opis{margin-top:14px;color:var(--s);font-size:16.5px}
+.osoba a.tel{margin-top:16px;display:inline-flex}
+
+/* zakres */
+.zakres-gl{display:flex;flex-wrap:wrap;justify-content:space-between;gap:20px 60px;align-items:end}
+.zakres-gl p{max-width:62ch;color:var(--s);font-size:18px}
+.paragrafy{list-style:none;margin:48px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--linia)}
+.paragrafy li{padding:30px clamp(16px,2vw,32px) 30px 0;border-bottom:1px solid var(--linia);display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 18px}
+.paragrafy b{grid-row:span 2;font:600 clamp(28px,2.2vw,38px)/1 var(--serif);color:var(--g);min-width:2.1em}
+.paragrafy h3{font-size:clamp(20px,1.4vw,24px);align-self:end}
+.paragrafy span{color:var(--s);font-size:16px}
+.czynnosci{margin-top:44px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px clamp(32px,6vw,120px)}
+.czynnosci h3{font-size:22px}
+.czynnosci p{margin-top:10px;color:var(--s)}
+
+/* deutsch */
+.de{background:var(--g-ciemna);color:#E2ECE8}
+.de h2{color:#fff}
+.de .kreska{color:#7FA899}
+.de-siatka{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,6vw,120px);align-items:start}
+.de p{margin-top:18px;font-size:18px;max-width:64ch}
+.de .pl{border-top:1px solid rgba(255,255,255,.2);padding-top:24px;margin-top:28px;color:#BFD3CB;font-size:17px}
+.de .btn{margin-top:30px}
+
+/* wynagrodzenie */
+.systemy{margin-top:44px;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(16px,2vw,32px)}
+.systemy div{background:#fff;padding:28px clamp(20px,1.6vw,28px)}
+.systemy h3{font-size:22px}
+.systemy p{margin-top:10px;color:var(--s);font-size:16px}
+.uwaga{margin-top:32px;font-size:18px;max-width:80ch}
+
+/* kontakt */
+.kontakt{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);gap:clamp(32px,5vw,96px)}
+.biura{margin-top:32px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.biura h3{font-size:20px}
+.biura p{margin-top:6px;color:var(--s)}
+.dane{margin-top:28px;display:grid;gap:8px}
+.dane a{font-weight:600;text-decoration:none;font-size:18px}
+.siedziba{margin-top:28px;display:flex;gap:18px;align-items:center}
+.siedziba button{padding:0;border:0;background:none;cursor:zoom-in;flex:none}
+.siedziba img{width:120px;height:122px;object-fit:cover}
+.siedziba p{color:var(--s);font-size:15px}
+form{background:var(--szary);padding:clamp(24px,3vw,44px);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+form h3{grid-column:1/-1;font-size:24px}
+form label{display:grid;gap:6px;font-size:15px;color:var(--s)}
+form .cala{grid-column:1/-1}
+input,textarea{font:inherit;color:var(--t);border:1px solid #C9D0D4;background:#fff;padding:12px 14px;border-radius:2px;width:100%}
+input:focus,textarea:focus{outline:2px solid var(--g);outline-offset:0;border-color:var(--g)}
+textarea{min-height:130px;resize:vertical}
+form .btn{justify-self:start}
+.info-form{grid-column:1/-1;font-size:14px;color:var(--s)}
+.mapa{margin-top:clamp(40px,5vw,72px);height:clamp(300px,32vw,460px);background:#E4E8EA;position:relative}
+.mapa iframe{border:0;width:100%;height:100%}
+.mapa .zasl{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--s)}
+
+/* stopka */
+footer{background:#0F2C24;color:#BCCDC6;padding:44px 0 26px;font-size:15px}
+.st{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:28px}
+footer b{color:#fff;font-weight:600}
+footer a{color:#DCE8E3;text-decoration:none}
+footer p{margin-top:6px}
+.st-dol{margin-top:34px;padding-top:18px;border-top:1px solid rgba(255,255,255,.14);display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;align-items:center}
+
+/* pasek mobilny */
+.mob{display:none}
+
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(10,16,14,.92);display:none;align-items:center;justify-content:center;flex-direction:column;padding:56px 16px 24px}
+.lb.otw{display:flex}
+.lb img{max-width:min(92vw,900px);max-height:78vh;width:auto;height:auto;image-rendering:auto}
+.lb p{color:#E3ECE8;margin-top:14px;font-size:15px;text-align:center}
+.lb button{position:absolute;background:none;border:0;color:#fff;font-size:34px;cursor:pointer;width:52px;height:52px}
+.lb .zam{top:8px;right:8px}
+.lb .pop{left:8px;top:50%}
+.lb .nast{right:8px;top:50%}
+
+@media (min-width:1900px){
+  .systemy{gap:40px}
+  .paragrafy{grid-template-columns:repeat(6,minmax(0,1fr))}
+  .paragrafy li{grid-template-columns:1fr;padding-right:28px}
+  .paragrafy b{grid-row:auto;margin-bottom:10px}
+  .paragrafy h3{align-self:start;min-height:2.4em}
+}
+@media (max-width:1180px){
+  .menu{display:none}
+  .burger{display:block;margin-left:0}
+  .top .tel{margin-left:auto}
+  .menu.otw{display:flex;position:absolute;top:var(--h);left:0;right:0;flex-direction:column;gap:0;background:#fff;border-bottom:1px solid var(--linia);padding:8px 4vw 18px;box-shadow:0 12px 24px rgba(0,0,0,.08)}
+  .menu.otw a{padding:14px 0;border-bottom:1px solid var(--linia);font-size:18px}
+  .systemy{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .zespol{grid-template-columns:1fr}
+}
+@media (max-width:900px){
+  .wstep,.de-siatka,.kontakt,.czynnosci{grid-template-columns:1fr}
+  .paragrafy{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .st{grid-template-columns:1fr 1fr}
+  .st .firma{grid-column:1/-1}
+}
+@media (max-width:760px){
+  :root{--h:58px;--kont:calc(100vw - 36px)}
+  body{font-size:16.5px}
+  .logo svg{width:66px;height:40px}
+  .logo span{font-size:11.5px}
+  .top .tel span{display:none}
+  .top .tel{width:44px;height:44px;justify-content:center;border:1px solid var(--linia);border-radius:2px}
+  .hero{flex-direction:column;align-items:stretch;background:var(--g)}
+  .hero-foto{position:relative;inset:auto;flex:1 1 auto;min-height:max(150px,24svh)}
+  .hero-foto img{position:absolute;inset:0;object-position:74% 46%}
+  .hero-foto::after{display:none}
+  .hero .kont{width:100%;padding:0;flex:0 0 auto}
+  .karta{width:100%;padding:8px 18px 26px}
+  .karta::after{display:none}
+  .karta::before{height:22px}
+  .karta h1{font-size:clamp(25px,7.4vw,30px)}
+  .karta p.lead{margin-top:12px;font-size:16px;line-height:1.5}
+  .karta .akcje{margin-top:24px;gap:12px}
+  .karta .btn{width:100%}
+  .karta .adres{font-size:14px}
+  .karta .kreska{display:none}
+  .osoba{grid-template-columns:1fr}
+  .osoba img{width:150px}
+  .paragrafy{grid-template-columns:1fr}
+  .paragrafy li{padding:22px 0}
+  .systemy,.biura{grid-template-columns:1fr}
+  form{grid-template-columns:1fr}
+  form .btn{width:100%}
+  .mob{display:grid;grid-template-columns:1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:40;background:#fff;border-top:1px solid var(--linia);transform:translateY(100%);transition:transform .25s}
+  .mob.widac{transform:none}
+  .mob a{display:flex;align-items:center;justify-content:center;min-height:54px;font-weight:700;text-decoration:none;color:var(--g)}
+  .mob a+a{background:var(--g);color:#fff}
+  footer{padding-bottom:80px}
+}
+@media (max-height:700px) and (max-width:760px){
+  .karta h1{font-size:clamp(23px,6.8vw,27px)}
+  .karta p.lead{font-size:15.5px}
+}
+@media (min-width:761px) and (max-height:820px){
+  .karta{padding:36px 40px}
+  .karta h1{font-size:clamp(28px,2.3vw,40px)}
+}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="zawijas" viewBox="0 0 150 22"><path d="M2 15C30 5 62 3 92 9S132 17 148 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M14 20C42 12 72 11 100 15S136 18 146 12" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></symbol>
+  <symbol id="sluchawka" viewBox="0 0 20 20"><path d="M6.2 2.5l2 3.6c.3.5.2 1.1-.2 1.5L6.9 8.8c.9 1.9 2.4 3.4 4.3 4.3l1.2-1.1c.4-.4 1-.5 1.5-.2l3.6 2c.5.3.7.9.5 1.4l-.7 2c-.3.7-1 1.2-1.8 1.1C8.6 17.8 2.2 11.4 1.7 4.5c-.1-.8.4-1.5 1.1-1.8l2-.7c.5-.2 1.1 0 1.4.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+</svg>
+
+<header class="top">
+  <div class="kont">
+    <a class="logo" href="#" aria-label="Kancelaria Adwokacka Hassa - strona główna">
+      <svg viewBox="0 0 78 46" aria-hidden="true">
+        <path d="M3 4.5C10 1.5 19 1.2 27 3.6L29 3.4 29.6 41.5C21.5 39.2 12.5 39.6 5 42.6 5.6 30 4.8 16.8 3 4.5Z" fill="#184838"/>
+        <text x="15.8" y="31" font-family="Lora,Georgia,serif" font-size="26" font-weight="600" fill="#fff" text-anchor="middle">§</text>
+        <text x="27" y="33.5" font-family="Lora,Georgia,serif" font-size="31" font-weight="600" fill="#184838">H</text>
+        <text x="50" y="27" font-family="Lora,Georgia,serif" font-size="14" font-style="italic" fill="#504840">assa</text>
+        <path d="M33 39.5C46 34.5 60 33.6 76 30.6" fill="none" stroke="#184838" stroke-width="1.4" stroke-linecap="round"/>
+        <path d="M40 42.6C52 38.8 63 37.6 74 35.6" fill="none" stroke="#184838" stroke-width=".8" stroke-linecap="round"/>
+      </svg>
+      <span>KANCELARIA<br>ADWOKACKA</span>
+    </a>
+    <nav class="menu" id="menu" aria-label="Menu główne">
+      <a href="#kancelaria">Kancelaria</a>
+      <a href="#prawnicy">Prawnicy</a>
+      <a href="#zakres">Zakres spraw</a>
+      <a href="#wynagrodzenie">Wynagrodzenie</a>
+      <a href="#deutsch" lang="de">Rechtsberatung auf Deutsch</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
+    <a class="tel" href="tel:+48727424696" aria-label="Zadzwoń: 727 424 696"><svg aria-hidden="true"><use href="#sluchawka"/></svg><span>727 424 696</span></a>
+    <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="menu"><i></i><i></i><i></i></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" style="padding:0" aria-label="Kancelaria Adwokacka Hassa">
+  <figure class="hero-foto">
+    <img src="img/mlotek-1024.webp" srcset="img/mlotek-640.webp 640w, img/mlotek-1024.webp 1024w, img/mlotek-1600.webp 1600w" sizes="100vw" width="1600" height="1000" alt="Młotek sędziowski na ciemnym blacie" fetchpriority="high">
+  </figure>
+  <div class="kont">
+    <div class="karta">
+      <h1>Adwokat w Opolu. Sprawy prowadzone po polsku i po niemiecku.</h1>
+      <p class="lead">Aneta Hassa i dr Mariusz Hassa prowadzą sprawy firm i osób prywatnych, od porady po reprezentację w sądzie. Zawsze zaczynamy od rzetelnej oceny sytuacji i ryzyka.</p>
+      <div class="akcje">
+        <a class="btn btn-jasny" href="#kontakt">Opisz swoją sprawę</a>
+        <p class="adres">ul. Koraszewskiego 8-16, Opole<br>filia: Rynek 31, Głogówek</p>
+      </div>
+      <svg class="kreska" aria-hidden="true"><use href="#zawijas"/></svg>
+    </div>
+  </div>
+</section>
+
+<section id="kancelaria">
+  <div class="kont wstep">
+    <div class="tekst">
+      <h2>Kancelaria</h2>
+      <svg class="kreska" aria-hidden="true"><use href="#zawijas"/></svg>
+      <p>Prowadzimy kompleksową obsługę prawną firm i osób fizycznych, zarówno w stałej współpracy, jak i w pojedynczych sprawach. Obsługujemy klientów w Opolu, w filii w Głogówku, na terenie całego kraju i za granicą.</p>
+      <p>Każdą sprawę zaczynamy od rzetelnej oceny sytuacji i ryzyka prawnego. Staramy się unikać zbędnych kosztów i zawiłości proceduralnych, a rozwiązanie dopasować do oczekiwań i możliwości finansowych klienta. Zapewniamy dyskrecję i elastyczne terminy, a porady udzielamy także przez e-mail.</p>
+    </div>
+    <blockquote class="motto">
+      <p>„Doświadczenie rodzi prawa, nigdy znajomość prawa nie poprzedza doświadczenia.”</p>
+      <cite>Antoine de Saint-Exupéry</cite>
+    </blockquote>
+  </div>
+</section>
+
+<section id="prawnicy" class="szara">
+  <div class="kont">
+    <h2>Prawnicy</h2>
+    <svg class="kreska" aria-hidden="true"><use href="#zawijas"/></svg>
+    <div class="zespol">
+      <article class="osoba">
+        <button type="button" data-lb="0" aria-label="Powiększ zdjęcie: adwokat Aneta Hassa"><img src="img/aneta-hassa.webp" width="210" height="316" alt="Adwokat Aneta Hassa" loading="lazy"></button>
+        <div>
+          <h3>Adwokat Aneta Hassa</h3>
+          <p class="rola">Opolska Izba Adwokacka</p>
+          <p class="opis">Absolwentka Wydziału Prawa i Administracji Uniwersytetu Opolskiego. Z wyróżnieniem ukończyła Szkołę Prawa Niemieckiego na Uniwersytecie Wrocławskim we współpracy z Humboldt-Universität zu Berlin i uzyskała Certyfikat Prawa Niemieckiego. Biegle mówi po niemiecku, prowadziła sprawy przed niemieckimi organami sądowymi, egzekucyjnymi i celnymi oraz transgraniczne negocjacje gospodarcze.</p>
+          <a class="tel" href="tel:+48727424696"><svg aria-hidden="true"><use href="#sluchawka"/></svg>727 424 696</a>
+        </div>
+      </article>
+      <article class="osoba">
+        <button type="button" data-lb="1" aria-label="Powiększ zdjęcie: adwokat dr Mariusz Hassa"><img src="img/mariusz-hassa.webp" width="210" height="316" alt="Adwokat dr Mariusz Hassa" loading="lazy"></button>
+        <div>
+          <h3>Adwokat dr Mariusz Hassa</h3>
+          <p class="rola">Izba Adwokacka w Opolu, doktor nauk prawnych</p>
+          <p class="opis">Zajmuje się przede wszystkim prawem administracyjnym, transportowym (zwłaszcza kolejowym) i rodzinnym. Prowadzi zajęcia i szkolenia z prawa w całej Polsce, jest autorem publikacji naukowych z zakresu polityki rozwoju i prawa transportowego. Założyciel i członek zarządu Stowarzyszenia OPPEN, które promuje edukację prawną.</p>
+          <a class="tel" href="tel:+48697767675"><svg aria-hidden="true"><use href="#sluchawka"/></svg>697 767 675</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="zakres">
+  <div class="kont">
+    <div class="zakres-gl">
+      <div>
+        <h2>Zakres spraw</h2>
+        <svg class="kreska" aria-hidden="true"><use href="#zawijas"/></svg>
+      </div>
+      <p>Doradzamy, reprezentujemy klientów przed sądami, urzędami i instytucjami, sporządzamy pozwy, apelacje, skargi kasacyjne, kasacje, umowy i opinie prawne.</p>
+    </div>
+    <ul class="paragrafy">
+      <li><b>§ 1</b><h3>Prawo cywilne</h3><span>w tym sprawy spadkowe</span></li>
+      <li><b>§ 2</b><h3>Prawo rodzinne i opiekuńcze</h3><span>w tym rozwody</span></li>
+      <li><b>§ 3</b><h3>Prawo karne</h3><span>karne wykonawcze i karnoskarbowe</span></li>
+      <li><b>§ 4</b><h3>Prawo pracy</h3></li>
+      <li><b>§ 5</b><h3>Prawo spółek handlowych</h3></li>
+      <li><b>§ 6</b><h3>Prawo administracyjne i podatkowe</h3><span>postępowania przed urzędami i sądami</span></li>
+    </ul>
+    <div class="czynnosci">
+      <div><h3>Stała obsługa firm</h3><p>Bieżące doradztwo, umowy i opinie prawne w ramach stałej współpracy, także dla firm z kapitałem niemieckim działających w Polsce.</p></div>
+      <div><h3>Pojedyncze sprawy</h3><p>Porada, pismo albo prowadzenie sprawy przed sądem lub urzędem, w Opolu, w Głogówku i poza województwem.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="deutsch" class="de">
+  <div class="kont de-siatka">
+    <div>
+      <h2 lang="de">Rechtsberatung auf Deutsch</h2>
+      <svg class="kreska" aria-hidden="true"><use href="#zawijas"/></svg>
+      <p class="pl">Obsługa prawna w języku niemieckim i w oparciu o prawo niemieckie. Doradzamy po niemiecku w sprawach prawa polskiego i po polsku w sprawach prawa niemieckiego.</p>
+      <a class="btn btn-jasny" href="#kontakt" lang="de">Kontakt aufnehmen</a>
+    </div>
+    <div lang="de">
+      <p>Unsere Anwaltskanzlei konzentriert sich speziell auf den deutsch-polnischen Rechtsverkehr. Wir beraten in deutscher Sprache zum polnischen Recht, sowie in polnischer Sprache zum deutschen Recht.</p>
+      <p>Den deutschen Unternehmen in Polen bieten wir umfassende Rechtsberatung zum polnischen Recht. Wir betreuen Sie auch gern in Ihren privaten Angelegenheiten in Polen und Deutschland, in Oppeln (Opole), in der Woiwodschaft Opolskie und in ganz Polen.</p>
+    </div>
+  </div>
+</section>
+
+<section id="wynagrodzenie" class="szara">
+  <div class="kont">
+    <h2>Wynagrodzenie</h2>
+    <svg class="kreska" aria-hidden="true"><use href="#zawijas"/></svg>
+    <p class="uwaga">Każdą sprawę wyceniamy indywidualnie, zależnie od jej charakteru, stopnia skomplikowania i potrzebnego nakładu pracy. Wysokość wynagrodzenia zawsze podajemy przed rozpoczęciem pracy.</p>
+    <div class="systemy">
+      <div><h3>Godzinowe</h3><p>Liczba przepracowanych godzin razy stawka ustalona indywidualnie z klientem.</p></div>
+      <div><h3>Ryczałtowe</h3><p>Stała kwota bez względu na liczbę godzin: jednorazowo za pojedynczą usługę albo miesięcznie przy stałej obsłudze.</p></div>
+      <div><h3>Success fee</h3><p>Dodatkowe wynagrodzenie uzależnione od pomyślnego wyniku sprawy.</p></div>
+      <div><h3>Mieszane</h3><p>Połączenie powyższych systemów, ustalane indywidualnie z klientem.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt">
+  <div class="kont kontakt">
+    <div>
+      <h2>Kontakt</h2>
+      <svg class="kreska" aria-hidden="true"><use href="#zawijas"/></svg>
+      <div class="biura">
+        <div><h3>Kancelaria w Opolu</h3><p>ul. B. Koraszewskiego 8-16 lok. 202<br>45-011 Opole</p></div>
+        <div><h3>Filia w Głogówku</h3><p>ul. Rynek 31 lok. 4<br>48-250 Głogówek</p></div>
+      </div>
+      <div class="dane">
+        <a href="tel:+48727424696">727 424 696 - adw. Aneta Hassa</a>
+        <a href="tel:+48697767675">697 767 675 - adw. dr Mariusz Hassa</a>
+        <a href="mailto:aneta.hassa@kancelaria-hassa.pl">aneta.hassa@kancelaria-hassa.pl</a>
+      </div>
+      <div class="siedziba">
+        <button type="button" data-lb="2" aria-label="Powiększ zdjęcie budynku kancelarii"><img src="img/siedziba-opole.webp" width="240" height="244" alt="Budynek kancelarii przy ul. Koraszewskiego w Opolu" loading="lazy"></button>
+        <p>Siedziba w Opolu, przy ul. Koraszewskiego, w centrum Opola.</p>
+      </div>
+    </div>
+    <form id="formularz" novalidate>
+      <h3>Opisz krótko swoją sprawę</h3>
+      <label>Imię i nazwisko<input name="imie" autocomplete="name" required></label>
+      <label>Telefon<input name="tel" type="tel" autocomplete="tel"></label>
+      <label class="cala">E-mail<input name="mail" type="email" autocomplete="email" required></label>
+      <label class="cala">Wiadomość<textarea name="tresc" required></textarea></label>
+      <button class="btn" type="submit">Wyślij wiadomość</button>
+      <p class="info-form" id="info-form">Wiadomość trafi bezpośrednio na adres e-mail kancelarii.</p>
+    </form>
+  </div>
+  <div class="kont mapa" id="mapa"><div class="zasl">Mapa dojazdu</div></div>
+</section>
+</main>
+
+<footer>
+  <div class="kont">
+    <div class="st">
+      <div class="firma"><b>Kancelaria Adwokacka Hassa</b><p>Adwokat Aneta Hassa, adwokat dr Mariusz Hassa</p></div>
+      <div><b>Opole</b><p>ul. B. Koraszewskiego 8-16 lok. 202<br>45-011 Opole</p></div>
+      <div><b>Głogówek</b><p>ul. Rynek 31 lok. 4<br>48-250 Głogówek</p></div>
+      <div><b>Kontakt</b><p><a href="tel:+48727424696">727 424 696</a><br><a href="tel:+48697767675">697 767 675</a><br><a href="mailto:aneta.hassa@kancelaria-hassa.pl">e-mail</a></p></div>
+    </div>
+    <div class="st-dol">
+      <span>© <span id="rok">2026</span> Kancelaria Adwokacka Hassa - <a href="#kontakt">Polityka prywatności</a></span>
+<style>
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+</style>
+<a class="wylinka-badge" href="https://wylinka.pl/?utm_source=kancelaria-hassa.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+    </div>
+  </div>
+</footer>
+
+<nav class="mob" id="mob" aria-label="Szybki kontakt"><a href="tel:+48727424696">Zadzwoń</a><a href="#kontakt">Opisz sprawę</a></nav>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie">
+  <button class="zam" type="button" aria-label="Zamknij">×</button>
+  <button class="pop" type="button" aria-label="Poprzednie">‹</button>
+  <img alt="">
+  <p></p>
+  <button class="nast" type="button" aria-label="Następne">›</button>
+</div>
+
+<script src="app.js" defer></script>
+</body>
+</html>
